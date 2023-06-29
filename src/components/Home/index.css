@@ -1,0 +1,88 @@
+.banner-sec-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 70vh;
+  padding-left: 20px;
+  padding-right: 20px;
+  justify-content: space-around;
+}
+.nav-items-container {
+  background-color: #e6f6ff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+}
+@media screen and (min-width: 767px) {
+  .nav-items-container {
+    display: none;
+  }
+}
+.nav-icons {
+  width: 30px;
+}
+
+@media screen and (max-width: 992px) {
+  .banner-sec-bg-container {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .banner-sec-bg-container {
+    flex-direction: column;
+  }
+}
+
+.banner-sec-text-container {
+  width: 400px;
+}
+@media screen and (max-width: 767px) {
+  .home-img {
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.banner-sec-text-title {
+  font-family: 'Roboto';
+  font-size: 33px;
+  color: #1e293b;
+  font-weight: 600;
+}
+@media screen and (max-width: 767px) {
+  .banner-sec-text-title {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-sec-text-container {
+    order: 2;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+.banner-sec-text-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+}
+.home-img {
+  width: 300px;
+}
+.shop-now-btn {
+  font-family: 'Roboto';
+  color: white;
+  font-size: 13px;
+  width: 136px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+  outline: none;
+  background-color: #0967d2;
+}
